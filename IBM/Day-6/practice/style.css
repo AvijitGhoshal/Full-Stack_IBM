@@ -1,0 +1,65 @@
+#parent{
+    background-color: rgb(230, 148, 7);
+    height: 500px;
+    border: 2px solid grey;
+    position: relative;
+   
+}
+#child{
+    background-color: rgb(139, 253, 16);
+    height: 200px;
+    border: 1px solid red;
+    position: absolute;
+    width: 800px;
+    padding: 10px;
+}
+#grandchild{
+    background-color: rgb(216, 69, 20);
+    height: 100px;
+    border: 1px solid rgb(19, 17, 17);
+    position: absolute;
+    width: 400px;
+    padding: 30px; 
+} 
+#avi{
+    background-color: chartreuse;
+    height: 85px;
+    width: 85px;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 20px;
+
+}
+img{
+    height: 85px;
+    width: 85px;
+    border-radius:50% ;
+}
+#jit{
+    background-color: rgb(241, 229, 6);
+    padding: 25px;
+    height: 150px;
+    width: 170px;
+    border: 2px solid rgb(3, 3, 2);
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    border-radius: 10%; 
+    
+}
+#from{
+    width: 400px;
+    height: 500px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10%;
+    margin: auto;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+} 
