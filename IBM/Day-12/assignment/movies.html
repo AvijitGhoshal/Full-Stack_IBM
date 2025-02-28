@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie List</h1>
+        <button id="backToHomeBtn">Back to Home</button>
+        <input type="text" id="searchBar" placeholder="Search movies..." />
+
+        <table id="moviesTable">
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Description</th>
+                    <th>Release Year</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                    <th>Poster</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="movieList"></tbody>
+        </table>
+
+        <p id="noMoviesMsg" style="display: none;">No movies added yet!</p>
+    </div>
+
+    <script src="movieScript.js"></script>
+</body>
+</html>

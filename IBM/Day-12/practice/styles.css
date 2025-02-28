@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/4893770.jpg);
+}
+
+
+
+#parent{
+    width: 20%;
+    height: auto;
+    border: solid 1px black;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(128, 179, 179);
+    
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    background-color: rgb(181, 176, 170);
+}
+
+#parent button{
+    width: 40%;
+    height: 30px;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(90, 216, 58);
+    border-radius: 10px;
+}
