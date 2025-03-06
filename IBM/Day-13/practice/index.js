@@ -207,3 +207,21 @@ function showData(array) {
 
 // Calling the function with the data array
 showData(data);
+let arr = [];
+
+
+function addToCart(el,index){
+  for(let i=0; i<arr.length; i++){
+    if(arr[i].id == el.id){
+      return alert("data already exists")
+    }
+  }
+  arr.push(el);
+  localStorage.setItem("DataCart",JSON.stringify(arr));
+  alert("data added to cart");
+}
+
+function cartPage(){
+  window.location.href="cart.html"
+
+}
