@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f0f9;
+    background-color:black;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #ff66b2;  /* Pink color */
+    background-color: #7b55db;  /* Pink color */
     color: #fff;
     padding: 1rem 2rem;
     display: flex;
@@ -35,14 +35,14 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: #fff;
+    color: #c5cce3;
     font-size: 1.1rem;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    color: #f7c7e6;  /* Light pink on hover */
+    color: white;  /* Light pink on hover */
 }
 
 main {
@@ -55,10 +55,39 @@ section {
     margin-bottom: 2.5rem;
 }
 
-section h2 {
+
+
+section button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.5rem;
-    color: #ff66b2;  /* Pink color */
+    background-color: #3b4aea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section button:hover {
+    background-color:#2f06e5;  /* Darker pink on hover */
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #e6e1f3; /* white color */
     margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     text-align: center;
     font-weight: 700;
 }
@@ -70,13 +99,16 @@ section h2 {
 
 .intro h2 {
     font-size: 3rem;
-    color: #ff66b2;
+    color: #e2e3e7;
     font-weight: 700;
 }
-
+.intro h2 span{
+    font-size: 3rem;
+    color: #5510ea;
+}
 .intro p {
     font-size: 1.2rem;
-    color: #555;
+    color: #a4a5c7;
 }
 
 .create-event form {
@@ -104,12 +136,12 @@ form input {
 }
 
 form input:focus {
-    border-color: #ff66b2;  /* Focus border in pink */
+    border-color: #440bee;  /* Focus border in pink */
 }
 
 form button {
     padding: 0.8rem 1.5rem;
-    background-color: #ff66b2;
+    background-color: #3c4be6;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -120,7 +152,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #f74a96;  /* Darker pink on hover */
+    background-color:#2409ed;  /* Darker pink on hover */
 }
 
 #event-list ul {
@@ -142,7 +174,7 @@ form button:hover {
 }
 
 #event-list h3 {
-    color: #ff66b2;
+    color: #1f09e8;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
 }
@@ -153,7 +185,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #ff66b2;
+    background-color: #5d4dc7;
     color: #fff;
     padding: 1rem;
     text-align: center;
