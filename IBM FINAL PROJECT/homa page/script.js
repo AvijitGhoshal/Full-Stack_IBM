@@ -1,3 +1,23 @@
+// 16:04
+
+
+let menu=document.querySelector("#menu-bars");
+let navbar=document.querySelector(".navbar");
+menu.onclick=()=>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
+window.onscroll=()=>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+}
+
+
+
+
+
+
+
 // Selecting form and event list container
 const eventForm = document.getElementById('event-form');
 const eventList = document.getElementById('events');

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Management System</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">git a
+    <header class="header">
         <div class="logo">
-            <h1><i>EVENTO</i></h1>
+            <h1><i>E-VENTO</i></h1>
         </div>
         <nav class="navbar">
             <ul>
@@ -22,16 +25,29 @@
                 <li><a href="#">contact</a></li>
             </ul>
         </nav>
+        <div id="menu-bars" class="fas fa-bars"></div>
+
     </header>
 
     <main>
         <section class="intro">
             <h2><I>ITS TIME TO CELEBRATE THE BEST </I><SPAN>EVENT ORGANIZERS</SPAN></h2>
             <p>Your one-stop solution for creating and managing events.</p>
+            <a href="#" class="btn">Contact us</a>
         </section>
+        <div class="home-slider">
+            <div class="wrapper">
+                <div class="slide"><img src="../IMAGE/slide1.jpeg" alt=""></div>
+                <div class="slide"><img src="../IMAGE/slide2.jpeg" alt=""></div>
+                <div class="slide"><img src="../IMAGE/slide3.jpeg" alt=""></div>
+                <div class="slide"><img src="../IMAGE/slide4.jpeg" alt=""></div>
+                <div class="slide"><img src="../IMAGE/slide5.jpeg" alt=""></div>
+                <div class="slide"><img src="../IMAGE/slide6.jpeg" alt=""></div>
+            </div>
+        </div>
+        
 
         <section class="create-event">
-            <button type="contact"><h2>Contact us</h2></button>
             <form id="event-form">
                 <label for="event-name">Event Name</label>
                 <input type="text" id="event-name" required>
@@ -58,6 +74,9 @@
         <p>&copy; 2025 Event Manager. All rights reserved.</p>
     </footer>
 
-    <script src="index.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
