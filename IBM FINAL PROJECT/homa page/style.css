@@ -38,7 +38,24 @@ html::-webkit-scrollbar-thumb{
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
 }
+
+
 /* suroj code end */
+
+
+/* slider image start */
+.swiper-slide{
+    overflow: hidden;
+    border-radius: .5rem;
+    height: 35rem;
+    width: 20rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+/* slider image end  */
 
 body {
     font-family: 'Arial', sans-serif;
